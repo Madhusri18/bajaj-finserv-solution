@@ -26,9 +26,9 @@ public class BajajFinservSolutionApplication implements CommandLineRunner {
             String generateUrl = "https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA";
 
             Map<String, String> requestBody = new HashMap<>();
-            requestBody.put("name", "Your Name");              // 🔴 Replace with your name
-            requestBody.put("regNo", "REG12346");              // 🔴 Replace with your REG no. (even)
-            requestBody.put("email", "your@email.com");        // 🔴 Replace with your email
+            requestBody.put("name", "Madhusri Nallapati");              
+            requestBody.put("regNo", "22BCE7418");              
+            requestBody.put("email", "madhusri1304@gmail.com");
 
             HttpHeaders headers = new HttpHeaders();
             headers.setContentType(MediaType.APPLICATION_JSON);
@@ -81,3 +81,4 @@ public class BajajFinservSolutionApplication implements CommandLineRunner {
         }
     }
 }
+
